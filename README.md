@@ -1,15 +1,4 @@
-# CachePerformanceonMatMul
-CSE530 Class project
+# Cache Performance
 
-For generating matrices:-
-python utils/random_matrix_generator.py --n 100 --dump input_matrix.in --sparsity 100
-
-For running kernel and simulator:-
-source run_kernel.sh
-
-For running simulator:-
-source run_simulator.sh <path to traces>
-
-
-"# Cache-Performance-Analysis" 
-"# Cache-Performance-Analysis" 
+This project was done as a part of the CSE530 course - Fundamentals of Computer Architecture.
+In this course, an in-depth analysis is done on the performance of a Cache on different workloads (scatter, gather and convolution operations) on matrices of varied sizes. Refer the report for more details.
